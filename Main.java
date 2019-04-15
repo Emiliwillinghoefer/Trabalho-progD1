@@ -9,14 +9,14 @@ class Main{
 		System.out.print("Mês:");
 		a.ano = s.nextInt();
 		System.out.print("Horas:");
-		a.horas = s.nextInt();
-		System.out.print("Minutos:");
-		a.minutos = s.nextInt();
-		System.out.print("Segundos: ");
-		a.segundos = s.nextInt();
+		a.horas = s.nextDouble();
+		//System.out.print("Minutos:");
+		//a.minutos = s.nextInt();
+		//System.out.print("Segundos: ");
+		//a.segundos = s.nextInt();
 
-//		System.out.println("\nDia ="+a.dia+"\nAno ="+a.ano+"\nHoras ="+a.horas+":"+a.minutos);
 		a.verificaAmPm(a.horas);
+		a.difSeg(s.nextDouble(), s.nextDouble());
 	}
 	
 }
