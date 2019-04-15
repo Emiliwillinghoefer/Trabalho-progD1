@@ -12,8 +12,10 @@ class Main{
 		a.horas = s.nextInt();
 		System.out.print("Minutos:");
 		a.minutos = s.nextInt();
+		System.out.print("Segundos: ");
+		a.segundos = s.nextInt();
 
-		System.out.println("\nDia ="+a.dia+"\nAno ="+a.ano+"\nHoras ="+a.horas+":"+a.minutos);
+//		System.out.println("\nDia ="+a.dia+"\nAno ="+a.ano+"\nHoras ="+a.horas+":"+a.minutos);
 		a.verificaAmPm(a.horas);
 	}
 	
