@@ -14,6 +14,7 @@ class Main{
 		a.minutos = s.nextInt();
 
 		System.out.println("\nDia ="+a.dia+"\nAno ="+a.ano+"\nHoras ="+a.horas+":"+a.minutos);
+		a.verificaAmPm(a.horas);
 	}
 	
 }
